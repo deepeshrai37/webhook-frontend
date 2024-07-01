@@ -1,0 +1,228 @@
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-container label {
+  margin-bottom: 8px;
+  display: block;
+  font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.form-container button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+.message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* App.css */
+
+/* Dashboard container */
+.dashboard-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Dashboard title */
+.dashboard-container h2 {
+  margin-bottom: 10px;
+}
+
+/* Logout button */
+.dashboard-container button {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.dashboard-container button:hover {
+  background-color: #d32f2f;
+}
+
+/* Webhooks list */
+.webhooks-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.webhooks-list li {
+  margin-bottom: 10px;
+}
+
+.webhooks-list li button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.webhooks-list li button:hover {
+  background-color: #45a049;
+}
+
+
+.subscribe-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transform: translateY(30px);
+}
+
+
+.subscribe-container h2 {
+  margin-bottom: 10px;
+}
+
+
+.subscribe-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+
+.subscribe-container input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.subscribe-container button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscribe-container button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+.subscribe-container p {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+}
+
+
+.webhook-events-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transform: translateY(30px);
+}
+
+
+.webhook-events-container h2 {
+  margin-bottom: 10px;
+}
+
+
+.webhook-events-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.webhook-events-container li {
+  margin-bottom: 10px;
+}
+
+.webhook-events-container li strong {
+  font-weight: bold;
+}
+
+
+.webhook-events-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+
+.webhook-events-container h2 {
+  margin-bottom: 10px;
+}
+
+
+.webhook-events-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.webhook-events-container li {
+  margin-bottom: 10px;
+}
+
+.webhook-events-container li strong {
+  font-weight: bold;
+}
+
+
+.webhook-events-container ul.event-list {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.webhook-events-container ul.event-list li {
+  margin-bottom: 5px;
+}
+
+.webhook-events-container ul.event-list li strong {
+  font-weight: bold;
+}
+
+
+
